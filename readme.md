@@ -9,6 +9,7 @@ Entregue una página web con lo siguiente:
 | Ashe   | Bot    | 80%           |
 | Yi     | Jungla | 100%          |
 | Mel    | Bot    | 500%          |
+
 La tabla debe tomar el ancho completo de la página, un color de borde externo verde y fondo de tabla amarillo.
 
 2. Cree un formulario con los siguientes campos:
