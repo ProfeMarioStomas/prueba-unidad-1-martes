@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagina de ejemplo</title>
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: Arial
+    }
+    .contenedor {
+        widht: 80%;
+        margin auto;
+        background-color lightgray;
+    }
+    h1 {
+        text-aling: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Bienvenidos a mi página<h1>
+        <p>Este es un párrafo sin cerrar
+        <img src="imagen.jpg" alt="Imagen de ejemplo">
+
+        <ul>
+            <li>Elemento 1
+            <li>Elemento 2</li>
+            <li>Elemento 3
+        </ul>
+
+        <form action="procesar.php" method="POST">
+            Nombre: <input type="text" name="nombre"
+            <br>
+            Correo: <input type="email" name="correo">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
