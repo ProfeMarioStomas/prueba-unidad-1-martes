@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es"> <!-- 30 puntos HTML, 9 CSS -->
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+             <title>Primera Evaluación Programación Web 2025</title> <!-- 1 punto -->
+             <link rel="stylesheet" href="estilos.css" > <!-- 1 punto -->
+</head>
+<body>
+    <h1 id="encabezado-tabla">Tabla de Datos</h1>
+    <table id="tabla">  <!-- 1 punto -->
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Lane</th>
+                <th>% Odiabilidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ashe</td>
+                <td>Bot</td>
+                <td>80%</td>
+            </tr>
+            <tr>
+                <td>Yi</td>
+                <td>Jungla</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Mel</td>
+                <td>Bot</td>
+                <td>500%</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 id="encabezado-formulario">Formulario de registro</h1> <!-- 1 punto -->
+    <div id="formulario">
+        <form action="https://formulario.santotomas.cl/programacionWeb/2025" method="post"> <!-- 2 punto -->
+            <label>
+                Ingrese nombre
+                <input type="text" name="nombre" maxlength="15" minlength="3" required /> <!-- 4 punto -->
+            </label>
+            <br />
+            <label>
+                Ingrese e-Mail
+                <input type="email" name="email" required /> <!-- 2 punto -->
+            </label>
+            <br />
+            <label>
+                Ingrese Contraseña
+                <input type="password" name="password" minlength="8" required /> <!-- 3 punto -->
+            </label>
+            <br />
+            <label>
+                Seleccione ciudad de residencia
+                <select name="ciudad"> <!-- 4 punto -->
+                    <option>Iquique</option>
+                    <option>Antofagasta</option>
+                    <option>Copiapó</option>
+                    <option>La Serena</option>
+                </select>
+            </label>
+            <br />
+            Seleccione estación preferida <!-- 5 punto -->
+            <br />
+            <label>Invierno<input type="radio" name="estacion" value="invierno" required/></label>
+            <label>Primavera<input type="radio" name="estacion" value="primavera" /></label>
+            <label>Verano<input type="radio" name="estacion" value="verano" /></label>
+            <label>Otoño<input type="radio" name="estacion" value="otoño" /></label>
+            <br />
+            Seleccione fruta favorita <!-- 4 punto -->
+            <br />
+            <label>Manzana<input type="checkbox" name="invierno" /></label>
+            <label>Naranja<input type="checkbox" name="naranja" /></label>
+            <label>Pera<input type="checkbox" name="pera" /></label>
+            <label>Tomate<input type="checkbox" name="tomate" /></label>
+            <br />
+            <button type="submit">Enviar</button> <!-- 1 punto -->
+        </form>
+    </div>
+</body>
+</html>

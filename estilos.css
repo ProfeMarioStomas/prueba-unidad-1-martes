@@ -1,0 +1,25 @@
+h1 {
+    background-color: black;
+}
+
+h1#encabezado-tabla {
+    color: white;
+}
+
+#tabla {
+    width: 100%;
+    border: 3px solid green;
+    background-color: yellow;
+}
+
+h1#encabezado-formulario {
+    color: yellow;
+}
+
+div#formulario {
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+/* 9 puntos */

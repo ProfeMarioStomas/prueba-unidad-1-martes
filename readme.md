@@ -44,3 +44,17 @@ con información por cuerpo de solicitud
 - Para el encabezado del **formulario**, debe tener un **color de letra amarillo**.
 - El título de la página debe ser: **Primera Evaluación Programación Web 2025**
 - Los estilos deben quedar en un archivo externo.
+------------------------------------------
+# Puntaje
+- Replicar página: 5 puntos divididos en
+  - Uso de links
+  - Uso de imágenes
+  - Uso de texto
+  - Uso de input
+  - Uso de botones
+- Corrección:
+  - 9 puntos por 9 errores graves
+- Entregable: 39 puntos divididos en:
+  - CSS 9 puntos
+  - HTML 30 puntos
+# Total: 53 puntos
